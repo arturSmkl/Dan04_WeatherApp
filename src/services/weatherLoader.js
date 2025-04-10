@@ -1,5 +1,5 @@
 const BASE_URL = 'https://api.openweathermap.org';
-const API_KEY = '873bc3dbe80463e4af563d27e8c1280e';
+const API_KEY = import.meta.env.VITE_API_KEY;
 const LIMIT = 2;
 
 export async function fetchCity(city_name) {
@@ -17,13 +17,3 @@ export async function fetchWeather(lat, lon) {
     }
     return await response.json();
 }
-
-const city_json = await fetchCity('Klecany')
-
-const city_name = city_json[0].name
-
-console.log(city_name, city_json[0].country)
-
-const forecast = await fetchWeather(city_json[0].lat, city_json[0].lon)
-
-console.log(forecast.list[0])
