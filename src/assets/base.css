@@ -51,3 +51,9 @@ body {
 html {
   font-size: 14px;
 }
+
+@media (max-width: 1450px) {
+  html {
+    font-size: 11px;
+  }
+}

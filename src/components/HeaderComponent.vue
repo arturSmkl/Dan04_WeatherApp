@@ -65,4 +65,11 @@ h2 {
   font-size: 1.55em;
 }
 
+@media (max-width: 1450px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+}
+
 </style>

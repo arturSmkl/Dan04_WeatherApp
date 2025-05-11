@@ -63,12 +63,9 @@ function showForecast(cityObj) {
   display: flex;
   flex-direction: row;
   align-items: stretch;
-  background-color: var(--vt-c-black-mute);
+  background-color: var(--vt-c-white-mute);
 }
 
-h3 {
-  color: var(--vt-c-white);
-}
 
 .column {
   width: 50%;
@@ -122,7 +119,7 @@ input:focus {
 }
 
 .results {
-  border-left: 0.25rem solid var(--vt-c-white-mute);
+  border-left: 0.25rem solid var(--vt-c-white);
 }
 
 .list {
@@ -134,7 +131,7 @@ input:focus {
   align-items: stretch;
   border-radius: 0.5rem;
   padding: 0.5rem;
-  background-color: var(--vt-c-white-mute);
+  background-color: var(--vt-c-white);
 }
 
 .list-item {
@@ -145,7 +142,7 @@ input:focus {
   align-items: center;
   border-radius: 0.5rem;
   border: none;
-  background-color: var(--vt-c-white-mute);
+  background-color: var(--vt-c-white);
 }
 
 .list-item:hover {
@@ -157,5 +154,6 @@ input:focus {
 .empty {
   margin: auto;
 }
+
 
 </style>
