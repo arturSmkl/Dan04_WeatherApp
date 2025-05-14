@@ -155,5 +155,36 @@ input:focus {
   margin: auto;
 }
 
+@media (max-width: 720px) {
+  .container {
+    flex-direction: column;
+    height: 30rem;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .search {
+    border: none;
+  }
+
+  input {
+    width: 12rem;
+  }
+
+  .results {
+    border: none;
+  }
+
+  .list {
+    width: 16rem;
+    height: 16rem;
+  }
+
+  .list-item {
+    font-size: 1rem;
+  }
+}
 
 </style>

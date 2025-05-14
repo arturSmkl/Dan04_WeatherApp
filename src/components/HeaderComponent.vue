@@ -37,7 +37,7 @@ header {
   height: 20rem;
   display: flex;
   flex-direction: row;
-  align-items: stretch;
+  align-items: end;
 }
 
 .image {
@@ -69,6 +69,24 @@ h2 {
   h1 {
     font-size: 3.5rem;
     line-height: 4rem;
+  }
+}
+@media (max-width: 720px) {
+  header {
+    height: 18rem;
+  }
+  .container {
+    height: 16rem;
+  }
+  .image {
+    height: 10rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+  }
+  h2 {
+    font-size: 1.25em;
   }
 }
 
